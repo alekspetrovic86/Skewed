@@ -1,3 +1,9 @@
+
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+
 html{
     font-size: 14px;
 }
@@ -6,3 +12,90 @@ html{
 img{
     max-width: 100%;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #B1B1B1;
+    font-weight: normal;
+}
+
+a, a:hover, a:focus{
+    color: #B1B1B1;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 3.75rem;
+    font-weight: 100;
+    color: #222222;
+}
+
+.h2-v2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+}
+
+h5{
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #222222;
+}
+
+.h5-v2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.text-warning{
+    color: #F7CC4B;
+}
+
+.bg-warning{
+    background-color: #F7CC4B;
+}
+
+.btn-outline-warning{
+    color: #F7CC4B;
+    border: 2px solid #F7CC4B;
+    padding: 12px 38px;
+}
+
+/*HEADER*/
+
+
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #fff!important;
+    letter-spacing: -2px;
+    line-height: 1.7;
+}
+header h1{
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #222222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid #222;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-nav .nav-item:hover .nav-link{
+    color: #fff;
+    background-color: #F7CC4B;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: #F7CC4B;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 204, 75, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
