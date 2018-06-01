@@ -58,6 +58,14 @@ h5{
     color: #F7CC4B;
     border: 2px solid #F7CC4B;
     padding: 12px 38px;
+    line-height: 1.2rem;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+
+.btn-outline-warning:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
 }
 
 /*HEADER*/
@@ -123,3 +131,6 @@ header h1{
     background-image: url('../img/skew-full-bottom-ccw.png');
     background-size: 100% 100%;
 }
+
+
+

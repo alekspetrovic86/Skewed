@@ -68,6 +68,12 @@
     .home h2{
         font-size: 5rem;
     }
+    
+    /*ABOUT US*/
+    .about-us{
+        padding-top: 150px!important;
+        padding-bottom: 150px!important;
+    }
 
 }
 
