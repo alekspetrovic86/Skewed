@@ -25,7 +25,7 @@ a, a:hover, a:focus{
 }
 
 h2{
-    font-size: 3.75rem;
+    font-size: 2.7rem;
     font-weight: 100;
     color: #222222;
 }
@@ -88,7 +88,7 @@ header h1{
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     background-color: #fff;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.1);
     transition: 0.3s ease;
 }
 
@@ -133,4 +133,34 @@ header h1{
 }
 
 
+/*VIDEO*/
 
+.video{
+    position: relative;
+}
+
+.video:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-ccw.png');
+    background-size: 100% 100%;
+}
+
+.video:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-ccw.png');
+    background-size: 100% 100%;
+}
+
+.video iframe{
+    
+}

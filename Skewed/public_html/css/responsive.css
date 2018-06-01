@@ -2,16 +2,17 @@
 @media(min-width:576px){
 
 
-    /*HOME*/
-    .home h2{
-        font-size: 2.5rem;
-    }
 
 }
 
 
 @media(min-width:768px){
 
+    h2{
+        font-size: 3.2rem;
+    }
+    
+    
     /*HEADER*/
 
 
@@ -41,7 +42,11 @@
     html{
         font-size: 16px;
     }
-
+    h2{
+        font-size: 3.75rem;
+    }
+    
+    
     /*HEADER*/
 
     .navbar-brand{
@@ -60,6 +65,19 @@
         height: 100px;
     }
 
+    /*VIDEO*/
+    
+    .video{
+        padding: 120px 0!important;
+    }
+
+    .video .embed-responsive{
+        width: 75%;
+    }
+    .video:after,
+    .video:before{
+        height: 100px;
+    }
 }
 
 
@@ -68,11 +86,15 @@
     .home h2{
         font-size: 5rem;
     }
-    
-    /*ABOUT US*/
+
+
     .about-us{
         padding-top: 150px!important;
         padding-bottom: 150px!important;
+    }
+    .video{
+        padding-top: 165px!important;
+        padding-bottom: 165px!important;
     }
 
 }
