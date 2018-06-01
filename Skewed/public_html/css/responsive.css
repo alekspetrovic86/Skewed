@@ -2,6 +2,11 @@
 @media(min-width:576px){
 
 
+    /*HOME*/
+    .home h2{
+        font-size: 2.5rem;
+    }
+
 }
 
 
@@ -21,7 +26,12 @@
     .navbar-nav .nav-item:hover .nav-link{
         background-color: transparent;
     }
-    
+
+    /*HOME*/
+    .home h2{
+        font-size: 3rem;
+    }
+
 
 }
 
@@ -38,15 +48,26 @@
         font-size: 2.2rem;
     }
 
+    /*HOME*/
 
-
-
+    .home{
+        padding: 250px 0px;
+    }
+    .home h2{
+        font-size: 4rem;
+    }
+    .home:after{
+        height: 100px;
+    }
 
 }
 
 
 @media(min-width:1200px){
-
+    /*HOME*/
+    .home h2{
+        font-size: 5rem;
+    }
 
 }
 
