@@ -166,6 +166,10 @@ header h1{
 
 .team figure{
     position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .team .hover{
@@ -176,7 +180,6 @@ header h1{
     height: 100%;
     background-color: #F7CC4B;
     display: none;
-    border-radius: 50%;
 }
 
 .team .hover .fa{
@@ -211,5 +214,37 @@ header h1{
 .team-item:hover h4 a{
     font-family: 'PT Sans', sans-serif;
     font-weight: normal; 
+}
+
+/*PARALLAX*/
+
+.parallax{
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-cw.png');
+    background-size: 100% 100%;
+}
+
+.parallax:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-cw.png');
+    background-size: 100% 100%;
 }
 

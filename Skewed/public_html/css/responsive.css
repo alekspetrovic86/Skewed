@@ -1,7 +1,10 @@
 
 @media(min-width:576px){
 
-
+   /*VIDEO*/
+    .video{
+        padding: 70px 0!important;
+    }
 
 }
 
@@ -11,11 +14,10 @@
     h2{
         font-size: 3.2rem;
     }
-    
+
+
     
     /*HEADER*/
-
-
     .navbar-light .navbar-nav .nav-link{
         color: #B1B1B1;
         background-color: transparent;
@@ -28,11 +30,27 @@
         background-color: transparent;
     }
 
+    
+    
     /*HOME*/
     .home h2{
         font-size: 3rem;
     }
 
+    
+    
+    /*VIDEO*/
+    .video{
+        padding: 100px 0!important;
+    }
+    
+    
+    
+    /*PARALLAX*/
+    .parallax article{
+        padding-left: 80px!important;
+        padding-right: 80px!important;
+    }
 
 }
 
@@ -45,52 +63,67 @@
     h2{
         font-size: 3.75rem;
     }
-    
-    
-    /*HEADER*/
 
+    .home:after,
+    .video:after,
+    .video:before,
+    .parallax:before,
+    .parallax:after{
+        height: 100px;
+    }
+
+
+
+    /*HEADER*/
     .navbar-brand{
         font-size: 2.2rem;
     }
 
+    
+    
     /*HOME*/
-
     .home{
         padding: 250px 0px;
     }
     .home h2{
         font-size: 4rem;
     }
-    .home:after{
-        height: 100px;
-    }
 
-    /*VIDEO*/
+
     
+    /*VIDEO*/
     .video{
-        padding: 120px 0!important;
+        padding: 150px 0!important;
     }
-
     .video .embed-responsive{
         width: 75%;
     }
-    .video:after,
-    .video:before{
-        height: 100px;
+
+
+  
+    /*TEAM*/
+    .team .container > h5{
+        margin-bottom: 80px!important;
+    }
+    .team{
+        padding: 115px 0!important;
     }
     
-    
-    /*TEAM*/
-    
-    .team .container > h5{
-    margin-bottom: 80px!important;
-}
-    
+       
+    /*PARALLAX*/
+    .parallax{
+        padding: 200px 0; 
+    }
+    .parallax article{
+        padding-left: 180px!important;
+        padding-right: 180px!important;
+    }
+
 }
 
 
 @media(min-width:1200px){
-    /*HOME*/
+
     .home h2{
         font-size: 5rem;
     }
@@ -105,6 +138,14 @@
         padding-bottom: 165px!important;
     }
 
+    .parallax article{
+        padding-left: 250px!important;
+        padding-right: 250px!important;
+    }
+    
+    .parallax{
+        padding: 250px 0; 
+    }
 }
 
 
