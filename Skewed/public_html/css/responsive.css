@@ -1,7 +1,7 @@
 
 @media(min-width:576px){
 
-   /*VIDEO*/
+    /*VIDEO*/
     .video{
         padding: 70px 0!important;
     }
@@ -16,7 +16,7 @@
     }
 
 
-    
+
     /*HEADER*/
     .navbar-light .navbar-nav .nav-link{
         color: #B1B1B1;
@@ -30,22 +30,22 @@
         background-color: transparent;
     }
 
-    
-    
+
+
     /*HOME*/
     .home h2{
         font-size: 3rem;
     }
 
-    
-    
+
+
     /*VIDEO*/
     .video{
         padding: 100px 0!important;
     }
-    
-    
-    
+
+
+
     /*PARALLAX*/
     .parallax article{
         padding-left: 80px!important;
@@ -79,8 +79,8 @@
         font-size: 2.2rem;
     }
 
-    
-    
+
+
     /*HOME*/
     .home{
         padding: 250px 0px;
@@ -90,7 +90,7 @@
     }
 
 
-    
+
     /*VIDEO*/
     .video{
         padding: 150px 0!important;
@@ -100,7 +100,7 @@
     }
 
 
-  
+
     /*TEAM*/
     .team .container > h5{
         margin-bottom: 80px!important;
@@ -108,8 +108,8 @@
     .team{
         padding: 115px 0!important;
     }
-    
-       
+
+
     /*PARALLAX*/
     .parallax{
         padding: 200px 0; 
@@ -129,10 +129,12 @@
     }
 
 
-    .about-us{
+    .about-us,
+    .principles{
         padding-top: 150px!important;
         padding-bottom: 150px!important;
     }
+
     .video{
         padding-top: 165px!important;
         padding-bottom: 165px!important;
@@ -142,9 +144,13 @@
         padding-left: 250px!important;
         padding-right: 250px!important;
     }
-    
+
     .parallax{
         padding: 250px 0; 
+    }
+    
+    .principles article{
+        padding-left: 30px;
     }
 }
 
