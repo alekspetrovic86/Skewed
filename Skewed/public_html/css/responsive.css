@@ -1,6 +1,7 @@
 
 @media(min-width:576px){
 
+    
     /*VIDEO*/
     .video{
         padding: 70px 0!important;
@@ -22,12 +23,12 @@
 
 @media(min-width:768px){
 
+    
     h2{
         font-size: 3.2rem;
     }
 
-
-
+   
     /*HEADER*/
     .navbar-light .navbar-nav .nav-link{
         color: #B1B1B1;
@@ -35,26 +36,25 @@
         border-bottom: none;
         transition: 0.3s ease;
     }
-
     .navbar-light .navbar-nav .nav-link.active,
     .navbar-nav .nav-item:hover .nav-link{
         background-color: transparent;
     }
 
-
-
+   
     /*HOME*/
     .home h2{
         font-size: 3rem;
     }
 
 
-
     /*VIDEO*/
     .video{
         padding: 100px 0!important;
     }
-
+    .video .embed-responsive{
+        width: 85%;
+    }
 
 
     /*PARALLAX*/
@@ -76,19 +76,20 @@
         margin: 0 5px;
     }
 
-
 }
 
 
 
 @media(min-width:992px){
+    
+    
     html{
         font-size: 16px;
     }
     h2{
         font-size: 3.75rem;
     }
-
+    
     .home:after,
     .video:after,
     .video:before,
@@ -101,12 +102,10 @@
     }
 
 
-
     /*HEADER*/
     .navbar-brand{
         font-size: 2.2rem;
     }
-
 
 
     /*HOME*/
@@ -118,7 +117,6 @@
     }
 
 
-
     /*VIDEO*/
     .video{
         padding: 150px 0!important;
@@ -126,7 +124,6 @@
     .video .embed-responsive{
         width: 75%;
     }
-
 
 
     /*TEAM*/
@@ -158,7 +155,6 @@
 
 
     /*ACHIEVEMENTS*/
-
     .achievements h6{
         margin-bottom: 80px!important;
     }
@@ -178,7 +174,6 @@
 
 
     /*SUBSCRIBE*/
-
     .subscribe{
         padding-top: 150px!important;
         padding-bottom: 80px!important;
@@ -189,10 +184,10 @@
 
 @media(min-width:1200px){
 
+    
     .home h2{
         font-size: 5rem;
     }
-
 
     .about-us,
     .principles{
@@ -221,7 +216,6 @@
     .porfolio{
         padding: 175px 0!important;
     }
-
 
     .subscribe{
         padding-top: 165px!important;

@@ -8,7 +8,6 @@ html{
     font-size: 14px;
 }
 
-
 img{
     max-width: 100%;
 }
@@ -68,6 +67,8 @@ h5{
     color: #fff;
 }
 
+
+
 /*HEADER*/
 
 
@@ -79,6 +80,7 @@ h5{
     letter-spacing: -2px;
     line-height: 1.7;
 }
+
 header h1{
     margin-bottom: 0;
 }
@@ -98,7 +100,6 @@ header h1{
     background-color: #F7CC4B;
 }
 
-
 .navbar-light .navbar-toggler {
     border-color: #F7CC4B;
 }
@@ -108,7 +109,9 @@ header h1{
 }
 
 
+
 /*HOME START*/
+
 
 .home{
     padding: 80px 0px;
@@ -133,7 +136,9 @@ header h1{
 }
 
 
+
 /*VIDEO*/
+
 
 .video{
     position: relative;
@@ -160,6 +165,8 @@ header h1{
     background-image: url('../img/skew-full-bottom-ccw.png');
     background-size: 100% 100%;
 }
+
+
 
 /*TEAM*/
 
@@ -216,7 +223,10 @@ header h1{
     font-weight: normal; 
 }
 
+
+
 /*PARALLAX*/
+
 
 .parallax{
     position: relative;
@@ -249,7 +259,9 @@ header h1{
 }
 
 
+
 /*PORTFOLIO*/
+
 
 .porfolio{
     position: relative;
@@ -317,6 +329,7 @@ header h1{
 }
 
 
+
 /*ACHIEVEMENTS*/
 
 .achievements-item h6{
@@ -349,7 +362,9 @@ header h1{
 }
 
 
+
 /*SUBSCRIBE*/
+
 
 .subscribe .h5-v2{
     font-weight: normal;
@@ -408,7 +423,9 @@ header h1{
 }
 
 
+
 /*FOOTER*/
+
 
 footer .social .fa{
     height: 40px;
