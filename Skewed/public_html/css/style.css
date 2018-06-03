@@ -406,3 +406,53 @@ header h1{
     background-image: url('../img/skew-full-top-cw.png');
     background-size: 100% 100%;
 }
+
+
+/*FOOTER*/
+
+footer .social .fa{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 5px;
+    transition: 0.5s ease;
+}
+
+footer p{
+    color: #BBBBBB;
+}
+
+footer .social .fa-facebook:hover{
+    color: #fff;
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    box-shadow: 0 0 3px #3b5998;
+}
+footer .social .fa-twitter:hover{
+    color: #fff;
+    background-color: #00aced;
+    border: 2px solid #00aced;
+    box-shadow: 0 0 3px #00aced;
+}
+footer .social .fa-google-plus:hover{
+    color: #fff;
+    background-color: #DD4B39;
+    border: 2px solid #DD4B39;
+    box-shadow: 0 0 3px #DD4B39;
+}
+footer .social .fa-dribbble:hover{
+    color: #fff;
+    background-color: #ea4c89;
+    border: 2px solid #ea4c89;
+    box-shadow: 0 0 3px #ea4c89;
+}
+footer .social .fa-instagram:hover{
+    color: #fff;
+    background-color: #8a3ab9;
+    border: 2px solid #8a3ab9;
+    box-shadow: 0 0 3px #8a3ab9;
+}
