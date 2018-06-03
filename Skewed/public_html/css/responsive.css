@@ -78,6 +78,14 @@
     .video:before{
         height: 100px;
     }
+    
+    
+    /*TEAM*/
+    
+    .team .container > h5{
+    margin-bottom: 80px!important;
+}
+    
 }
 
 
