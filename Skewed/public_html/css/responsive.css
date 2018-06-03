@@ -7,6 +7,16 @@
     }
 
 
+    /*ACHIEVEMENTS*/
+    .achievements-item p:last-of-type{
+        font-size: 5.25rem;
+        font-family: 'PT Sans', sans-serif; 
+        line-height: 5.25rem;
+    }
+.achievements .blockquote p{
+    font-size: 1.3rem;
+} 
+    
 }
 
 
@@ -125,13 +135,33 @@
         padding-right: 180px!important;
     }
 
-    
+
     /*PORTFOLIO*/
     .porfolio .container h5{
         margin-bottom: 60px!important;
     }
     .porfolio{
         padding: 150px 0!important;
+    }
+
+
+    /*ACHIEVEMENTS*/
+
+    .achievements h6{
+        margin-bottom: 80px!important;
+    }
+    .achievements .quote{
+        padding-left: 60px!important;
+        padding-right: 60px!important;
+    }
+    .achievements .blockquote p{
+        font-size: 1.7rem;
+    } 
+    .achievements .quote{
+        margin-top: 80px!important;
+    }
+    .achievements{
+        padding: 100px 0!important;
     }
 }
 
@@ -166,7 +196,7 @@
     .principles article{
         padding-left: 30px;
     }
-    
+
     .porfolio{
         padding: 175px 0!important;
     }

@@ -248,6 +248,7 @@ header h1{
     background-size: 100% 100%;
 }
 
+
 /*PORTFOLIO*/
 
 .porfolio{
@@ -313,4 +314,36 @@ header h1{
     right: 0;
     background-image: url('../img/skew-full-bottom-ccw.png');
     background-size: 100% 100%;
+}
+
+
+/*ACHIEVEMENTS*/
+
+.achievements-item h6{
+    color: #666666;
+}
+
+.achievements-item .fa{
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    font-size: 5rem;
+    color: #222222;
+}
+
+.achievements-item p:last-of-type{
+    font-size: 4rem;
+    font-family: 'PT Sans', sans-serif; 
+    line-height: 4rem;
+}
+
+
+.achievements .blockquote p{
+    color: #222222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+} 
+
+.achievements .blockquote .blockquote-footer{
+    color: #BBBBBB;
 }
