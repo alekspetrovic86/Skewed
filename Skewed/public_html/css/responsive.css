@@ -6,6 +6,7 @@
         padding: 70px 0!important;
     }
 
+
 }
 
 
@@ -52,6 +53,9 @@
         padding-right: 80px!important;
     }
 
+
+
+
 }
 
 
@@ -68,7 +72,9 @@
     .video:after,
     .video:before,
     .parallax:before,
-    .parallax:after{
+    .parallax:after,
+    .porfolio:before,
+    .porfolio:after{
         height: 100px;
     }
 
@@ -119,6 +125,14 @@
         padding-right: 180px!important;
     }
 
+    
+    /*PORTFOLIO*/
+    .porfolio .container h5{
+        margin-bottom: 60px!important;
+    }
+    .porfolio{
+        padding: 150px 0!important;
+    }
 }
 
 
@@ -148,9 +162,13 @@
     .parallax{
         padding: 250px 0; 
     }
-    
+
     .principles article{
         padding-left: 30px;
+    }
+    
+    .porfolio{
+        padding: 175px 0!important;
     }
 }
 

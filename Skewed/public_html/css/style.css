@@ -248,3 +248,69 @@ header h1{
     background-size: 100% 100%;
 }
 
+/*PORTFOLIO*/
+
+.porfolio{
+    position: relative;
+}
+
+.porfolio .h5-v2{
+    color: #444444;
+}
+
+.porfolio-item figure{
+    position: relative;
+}
+
+.porfolio .porfolio-item a{
+    font-size: 1.4rem;
+    color: #222222;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s ease;
+}
+
+.porfolio-item figure div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.porfolio-item figure:hover div{
+    display: block;
+}
+
+.porfolio-item div a:hover{
+    background-color: rgba(255,255,255,0.7);
+}
+
+.porfolio:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-ccw.png');
+    background-size: 100% 100%;
+}
+
+.porfolio:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-ccw.png');
+    background-size: 100% 100%;
+}
