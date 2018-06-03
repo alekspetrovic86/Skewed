@@ -13,10 +13,10 @@
         font-family: 'PT Sans', sans-serif; 
         line-height: 5.25rem;
     }
-.achievements .blockquote p{
-    font-size: 1.3rem;
-} 
-    
+    .achievements .blockquote p{
+        font-size: 1.3rem;
+    } 
+
 }
 
 
@@ -84,8 +84,9 @@
     .parallax:before,
     .parallax:after,
     .porfolio:before,
-    .porfolio:after{
-        height: 100px;
+    .porfolio:after,
+    .subscribe:before{
+        height: 120px;
     }
 
 
@@ -163,6 +164,15 @@
     .achievements{
         padding: 100px 0!important;
     }
+
+
+    /*SUBSCRIBE*/
+
+    .subscribe{
+        padding-top: 150px!important;
+        padding-bottom: 80px!important;
+    }
+
 }
 
 
@@ -199,6 +209,12 @@
 
     .porfolio{
         padding: 175px 0!important;
+    }
+
+
+    .subscribe{
+        padding-top: 165px!important;
+        padding-bottom: 100px!important;
     }
 }
 
