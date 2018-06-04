@@ -45,15 +45,11 @@ h5{
     font-weight: 300;
 }
 
-.text-warning{
+.text-warning-2{
     color: #F7CC4B;
 }
 
-.bg-warning{
-    background-color: #F7CC4B;
-}
-
-.btn-outline-warning{
+.btn-outline-warning-2{
     color: #F7CC4B;
     border: 2px solid #F7CC4B;
     padding: 12px 38px;
@@ -62,9 +58,11 @@ h5{
     transition: 0.3s ease;
 }
 
-.btn-outline-warning:hover{
+.btn-outline-warning-2:hover{
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
     color: #fff;
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
 }
 
 
@@ -331,6 +329,7 @@ header h1{
 
 
 /*ACHIEVEMENTS*/
+
 
 .achievements-item h6{
     color: #666666;
